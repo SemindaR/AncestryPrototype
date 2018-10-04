@@ -20,7 +20,7 @@ namespace AppsCore.Ancestry.Api.Model
         public string MotherId { get; set; }
 
         [JsonProperty("place_id")]
-        public string PlaceId { get; set; }
+        public long PlaceId { get; set; }
 
         [JsonProperty("level")]
         public string Level { get; set; }

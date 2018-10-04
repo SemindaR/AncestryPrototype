@@ -1,4 +1,3 @@
-using System;
 using AppsCore.Ancestry.Api.DataReadClient;
 using AppsCore.Ancestry.Api.Model;
 using Xunit;
