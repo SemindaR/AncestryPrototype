@@ -23,10 +23,10 @@ namespace AppsCore.Ancestry.Api.DataReadClient
         private static List<string> GetAllFiles(string filePrefix, string fileExtention)
         {
             var files = new List<string>();
-            var directoryInfo = Directory.GetParent(Directory.GetCurrentDirectory()).Parent;
+            var directoryInfo = Directory.GetCurrentDirectory(); //Directory.GetParent(Directory.GetCurrentDirectory()).Parent;
             if (directoryInfo == null) return files;
 
-            var path = Path.Combine(Directory.GetParent(directoryInfo.FullName).FullName, "Data");
+            var path = Path.Combine(directoryInfo, "Data");
             var folder = new DirectoryInfo(path);
             var filesInDir = folder.GetFiles($"{filePrefix}*.{fileExtention}");
 

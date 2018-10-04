@@ -5,4 +5,9 @@
         Male,
         Female
     }
+
+    public enum ErrorCode
+    {
+        KeywordRequired
+    }
 }
