@@ -50,3 +50,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/AppsCore.Ancestry.Api/bin/Debug/netcoreapp2.0/*.json
+/AppsCore.Ancestry.Api/obj/*.props
+/AppsCore.Ancestry.Api/obj/*.targets
+/AppsCore.Ancestry.Api/obj/Debug/netcoreapp2.0/*.cs
+/AppsCore.Ancestry.Api/obj/Debug/netcoreapp2.0/*.txt
+/AppsCore.Ancestry.Api/obj/*.json
+/.vs/AppsCore.Ancestry/DesignTimeBuild/*.dtbcache
+/.vs/AppsCore.Ancestry/v15/Server/sqlite3/*.lock
+/.vs/AppsCore.Ancestry/v15/Server/sqlite3/*.ide
+/.vs/AppsCore.Ancestry/v15/Server/sqlite3/*.ide-shm
+/.vs/AppsCore.Ancestry/v15/Server/sqlite3/*.ide-wal
+/.vs/config/*.config
