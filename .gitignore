@@ -62,3 +62,13 @@ dkms.conf
 /.vs/AppsCore.Ancestry/v15/Server/sqlite3/*.ide-shm
 /.vs/AppsCore.Ancestry/v15/Server/sqlite3/*.ide-wal
 /.vs/config/*.config
+/AppsCore.Ancestry.Api.Test/bin/Debug/netcoreapp2.1/*.json
+/AppsCore.Ancestry.Api.Test/bin/Debug/netcoreapp2.1/Data/*.json
+/AppsCore.Ancestry.Api.Test/obj/*.props
+/AppsCore.Ancestry.Api.Test/obj/*.targets
+/AppsCore.Ancestry.Api.Test/obj/Debug/netcoreapp2.1/*.cs
+/AppsCore.Ancestry.Api.Test/obj/Debug/netcoreapp2.1/*.CopyComplete
+/AppsCore.Ancestry.Api.Test/obj/Debug/netcoreapp2.1/*.txt
+/AppsCore.Ancestry.Api.Test/obj/*.json
+/AppsCore.Ancestry.Api/bin/Debug/netcoreapp2.0/Data/data_large.json
+/AppsCore.Ancestry.Api/bin/Debug/netcoreapp2.0/Data/data_small.json

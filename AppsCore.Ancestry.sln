@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppsCore.Ancestry.Api", "AppsCore.Ancestry.Api\AppsCore.Ancestry.Api.csproj", "{A3A5111B-1853-443A-AD1B-29C4A5E78F60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppsCore.Ancestry.Api.Test", "AppsCore.Ancestry.Api.Test\AppsCore.Ancestry.Api.Test.csproj", "{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A3A5111B-1853-443A-AD1B-29C4A5E78F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3A5111B-1853-443A-AD1B-29C4A5E78F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3A5111B-1853-443A-AD1B-29C4A5E78F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
