@@ -26,7 +26,7 @@ namespace AppsCore.Ancestry.Api.Service
             {
                 foreach (var ancestralData in data)
                 {
-                    var  people = ancestralData.People.Where(n => n.Name.Contains(request.Keyword));
+                    var  people = ancestralData.People.Where(n => n.Name.ToLower().Contains(request.Keyword.ToLower()));
 
                     result.AddRange(from person in people
                         let birthPlace = ancestralData.Places.FirstOrDefault(s => s.Id == person.PlaceId)?.Name
@@ -40,7 +40,7 @@ namespace AppsCore.Ancestry.Api.Service
                 foreach (var ancestralData in data)
                 {
                     var people = ancestralData.People.Where(n =>
-                        n.Name.Contains(request.Keyword) && string.Equals(n.Gender, gender, StringComparison.CurrentCultureIgnoreCase));
+                        n.Name.ToLower().Contains(request.Keyword.ToLower()) && string.Equals(n.Gender, gender, StringComparison.CurrentCultureIgnoreCase));
 
                     result.AddRange(from person in people
                         let birthPlace = ancestralData.Places.FirstOrDefault(s => s.Id == person.PlaceId)?.Name

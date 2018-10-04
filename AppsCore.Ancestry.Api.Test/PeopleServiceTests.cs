@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using AppsCore.Ancestry.Api.Config;
+using AppsCore.Ancestry.Api.Constants;
 using AppsCore.Ancestry.Api.DataReadClient;
 using AppsCore.Ancestry.Api.Model;
 using AppsCore.Ancestry.Api.Service;
@@ -31,7 +32,7 @@ namespace AppsCore.Ancestry.Api.Test
             var request = new PeopleSearchRequest
             {
                 Gender = null,
-                Keyword = "Sam"
+                Keyword = "sam"
             };
 
             //Act
@@ -40,6 +41,24 @@ namespace AppsCore.Ancestry.Api.Test
             //Assert
             Assert.NotNull(result);
             Assert.Equal(2,result.Count);
+        }
+
+        [Fact]
+        public void SearchPeople_FilterByNameAndGenderMale_Success()
+        {
+            //Arrange
+            var request = new PeopleSearchRequest
+            {
+                Gender = Gender.Male,
+                Keyword = "sam"
+            };
+
+            //Act
+            var result = _peopleService.SearchPeople(request);
+
+            //Assert
+            Assert.NotNull(result);
+            Assert.Equal(1, result.Count);
         }
 
 
