@@ -3,9 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppsCore.Ancestry.Api", "AppsCore.Ancestry.Api\AppsCore.Ancestry.Api.csproj", "{A3A5111B-1853-443A-AD1B-29C4A5E78F60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppsCore.Ancestry.Api", "AppsCore.Ancestry.Api\AppsCore.Ancestry.Api.csproj", "{A3A5111B-1853-443A-AD1B-29C4A5E78F60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppsCore.Ancestry.Api.Test", "AppsCore.Ancestry.Api.Test\AppsCore.Ancestry.Api.Test.csproj", "{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppsCore.Ancestry.Api.Test", "AppsCore.Ancestry.Api.Test\AppsCore.Ancestry.Api.Test.csproj", "{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AppsCore.Ancestry.Web", "AppsCore.Ancestry.Web\", "{C07B991D-B484-4928-9D0F-2814A1646EDA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54042"
+		Debug.AspNetCompiler.PhysicalPath = "AppsCore.Ancestry.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54042\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54042"
+		Release.AspNetCompiler.PhysicalPath = "AppsCore.Ancestry.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54042\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54042"
+		SlnRelativePath = "AppsCore.Ancestry.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +43,10 @@ Global
 		{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C06FB0AF-FF92-4F26-A027-077EF1D9F1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07B991D-B484-4928-9D0F-2814A1646EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07B991D-B484-4928-9D0F-2814A1646EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07B991D-B484-4928-9D0F-2814A1646EDA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07B991D-B484-4928-9D0F-2814A1646EDA}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

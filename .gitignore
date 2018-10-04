@@ -72,3 +72,4 @@ dkms.conf
 /AppsCore.Ancestry.Api.Test/obj/*.json
 /AppsCore.Ancestry.Api/bin/Debug/netcoreapp2.0/Data/data_large.json
 /AppsCore.Ancestry.Api/bin/Debug/netcoreapp2.0/Data/data_small.json
+/AppsCore.Ancestry.Web/Bin
